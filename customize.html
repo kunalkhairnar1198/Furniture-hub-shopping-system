@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+        function myFunction1() {
+  alert("OTP SEND SUCCESSFULLY");
+}
+function myFunction2() {
+
+  alert("OTP VERIFIED SUCCESSFULLY");
+}
+
+</script>
+
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/create.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- //web font -->
+</head>
+
+<body>
+    <!-- main -->
+    <div class="main-w3layouts wrapper">
+        <h1>CUSTOMIZE YOUR PRODUCT</h1>
+        <div class="main-agileinfo">
+            <div class="agileits-top">
+                <form action="customize.php" method="post"> 
+                    <label>ENTER YOUR NAME </label><br>      
+                    <input class="text" type="text" name="name" placeholder="name" required="" name="name"><br>
+                   <label>SELECT YOUR PRODUCT</label><br>
+                    <select class="form-control" name="product" required>
+                        <option selected value="default" >Select Your Products </option>
+                       <option  value="chair">chair</option>
+                       <option  value="sofa">sofa</option>
+                       <option  value="dinning">dinning</option>
+                       <option  value="table">table</option>
+                    </select><br><br>
+                    <label>SELECT TYPE OF MATERIAL</label><br>
+                    <select class="form-control" name="material" required>
+                        <option selected value="default" >Select type of material for Products </option>
+                       <option  value="plywood">plywood</option>
+                       <option  value="wood">wood</option>
+                       <option  value="mica">mica</option>
+                    </select><br><br>
+                    <label>SELECT TYPE OF FOAM(if required)</label><br>
+                    <select class="form-control" name="foam">
+                        <option selected value="default" >Select FOAM </option>
+                       <option  value="memory">memory foam</option>
+                       <option  value="coconut">coconut foam</option>
+                       <option  value="sponge">sponge foam</option>
+                    </select><br><br>
+                    <lable>ENTER DIMMENSIONS(l*b*h)</lable>
+                    <input class="text" type="text" name="dim" placeholder="in inches" required="" name="dim">
+                  
+                    <input class="text email" type="email" name="email" placeholder="Email" required="" name="email">
+                    <input class="text" type="text" name="addrs" placeholder="Address" required="" name="addrs"><br>
+                    <input class="text" type="text" name="mob" placeholder="Mobile number" required="" name="mob"><br>
+                    <input type="submit" value="submit">
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

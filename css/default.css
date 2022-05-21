@@ -1,0 +1,44 @@
+/* CSS Document */
+
+
+body{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#000;}
+img{ border:0px;}
+.clr{ clear:both;}
+
+.main{ width:100%;}
+.wrapper{ width:1000px; margin:0 auto;}
+.top-section{ background-color:#252525; color:#fff; padding:7px 0; margin-bottom:20px;}
+.top-opt{ float:right; width:600px;}
+.top-opt-left{ float:left; width:285px;}
+.top-opt-left a{ text-decoration:none; color:#ff6600;}
+.top-opt-right{ float:right; width:275px;}
+.myaccount{ float:left; width:63px; background:url(../images/myaccount.jpg) no-repeat left; padding-left:23px;}
+.wishlist{ float:left; width:43px; margin-left:10px;background:url(../images/wishlist.jpg) no-repeat left; padding-left:26px;}
+.checkout{  float:left; width:50px; margin-left:10px;background:url(../images/checkout.jpg) no-repeat left; padding-left:24px;}
+
+.logo-search-cart{ margin-bottom:20px;}
+.logo{ float:left; width:203px;}
+.search{float:left; width:417px; margin-left:118px;}
+.tops{ float:left; width:330px; padding:7px 0; border:solid 1px #ccc;}
+.topsub{ float:left; width:77px; background-color:#ff6600; border:0px; cursor:pointer; color:#fff; padding:7px 0;}
+.cart{float:left; width:128px; margin-left:84px;background:url(../images/cart.jpg) no-repeat left; padding-left:29px; height:25px; line-height:25px;}
+.menu{ background-color:#f1f1f1; border-top:solid 1px #e1e1e1;}
+.menu ul{ margin:0px; padding:0px;}
+.menu ul li{ float:left; list-style-type:none; padding:6px 0;}
+.menu ul li a{ text-decoration:none; color:#000; margin-right:30px;}
+.menu ul li a:hover{ color:#ff6600;}
+
+.banner{ text-align:center;}
+
+.fbox{ background-color:#ff6600; padding:30px 0;}
+.fleft{ float:left; width:700px;}
+.fright{ float:right; width:300px;}
+.bmenu{ float:left; width:170px;}
+.bhead{ font-size:14px; margin-bottom:15px;}
+.bmenu ul{ margin:0px; padding:0px;}
+.bmenu ul li{ list-style-type:square; color:#fff; margin-left:10px; margin-bottom:8px;}
+.bmenu ul li a{ text-decoration:none; color:#fff;}
+.btext{ float:left; width:240px; padding:5px 0; border:0px;}
+.bsub{ float:left; width:50px; background-color:#252525; border:0px; cursor:pointer; color:#fff; text-transform:uppercase; padding:5px 0;}
+.copyright{ color:#fff; margin:20px 0;}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+        function myFunction1() {
+  alert("OTP SEND SUCCESSFULLY");
+}
+function myFunction2() {
+
+  alert("OTP VERIFIED SUCCESSFULLY");
+}
+
+</script>
+
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/create.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- //web font -->
+</head>
+
+<body>
+    <!-- main -->
+    <div class="main-w3layouts wrapper">
+        <h1>RESET PASSWORD</h1>
+        <div class="main-agileinfo">
+            <div class="agileits-top">
+                <form action="forgetpass.php" method="post">
+                    <input class="text" type="text" name="uname" placeholder="Username" required="" name="uname"><br>
+                  
+                    <input class="text" type="text" name="mob" placeholder="Mobile number" required="" name="mob"><br>
+                    <input type="button" name="button" value="GET OTP" onclick="myFunction1()"><br><br>
+                    <input class="text" type="text" name="otp" placeholder="ENTER OTP" required="" name="otp"><br>
+                    <input type="button" name="button" value="Verify OTP" onclick="myFunction2()"><br><br>
+                    <input class="text" type="password" name="pass" placeholder="Password" required="" name="pass">
+                    
+                    <input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
+                    <div class="wthree-text">
+
+                    </div>
+                    <input type="submit" value="RESET PASSWORD ">
+                </form>
+               
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
